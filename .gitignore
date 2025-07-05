@@ -1,0 +1,36 @@
+# Node modules
+**/node_modules/
+
+# Logs
+*.log
+
+# Dependency directories
+**/dist/
+**/build/
+
+# Env files
+**/.env
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Coverage files
+coverage/
+
+# Next.js specific (if used in frontend/admin)
+.next/
+out/
+
+# Others
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#  ignore .env.* pattern 
+**/.env.*
+
+config/serviceAccountKey.json
