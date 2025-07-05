@@ -9,7 +9,7 @@ export default function RelatedProperties({ currentPropertyId, propertyType }) {
     const fetchRelatedListings = async () => {
       try {
         const res = await fetch(
-          `/api/listing/get?type=${propertyType}&limit=4&exclude=${currentPropertyId}`
+          `https://real-estate-backend-rai3.onrender.com/api/listing/get?type=${propertyType}&limit=4&exclude=${currentPropertyId}`
         );
         const data = await res.json();
         setRelatedListings(data);
